@@ -1,0 +1,24 @@
+/* CureShare Global CSS */
+.scroll-bar .track { -fx-background-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: rgba(0,176,144,0.28); -fx-background-radius: 10; }
+.scroll-bar .thumb:hover { -fx-background-color: rgba(0,176,144,0.50); }
+.scroll-bar .increment-button, .scroll-bar .decrement-button { -fx-background-color: transparent; -fx-padding: 0; }
+.scroll-pane { -fx-background-color: transparent; }
+.scroll-pane > .viewport { -fx-background-color: transparent; }
+.scroll-pane .corner { -fx-background-color: transparent; }
+.combo-box { -fx-background-color: rgba(255,255,255,0.72); -fx-border-color: rgba(0,176,144,0.22); -fx-border-width:1; -fx-border-radius:10; -fx-background-radius:10; -fx-font-family:'DM Sans'; -fx-font-size:13px; }
+.combo-box:focused { -fx-border-color:#00b090; }
+.combo-box .list-cell { -fx-background-color:transparent; -fx-font-family:'DM Sans'; -fx-font-size:13px; -fx-text-fill:#0d2e28; }
+.combo-box-popup .list-view { -fx-background-color:rgba(255,255,255,0.97); -fx-background-radius:12; -fx-border-color:rgba(0,176,144,0.2); -fx-border-radius:12; -fx-effect: dropshadow(gaussian,rgba(0,120,96,0.15),12,0,0,4); }
+.combo-box-popup .list-cell:hover { -fx-background-color:rgba(0,176,144,0.08); }
+.combo-box-popup .list-cell:selected { -fx-background-color:rgba(0,176,144,0.14); -fx-text-fill:#005540; }
+.check-box .box { -fx-background-color:rgba(255,255,255,0.7); -fx-border-color:rgba(0,176,144,0.3); -fx-border-radius:4; -fx-background-radius:4; }
+.check-box:selected .box { -fx-background-color:#00b090; -fx-border-color:#00b090; }
+.check-box:selected .mark { -fx-background-color:white; }
+.text-area .content { -fx-background-color:transparent; -fx-font-family:'DM Sans'; -fx-font-size:13px; }
+.text-area { -fx-background-color:rgba(255,255,255,0.72); -fx-border-color:rgba(0,176,144,0.22); -fx-border-radius:10; -fx-background-radius:10; }
+.tooltip { -fx-background-color:rgba(0,50,40,0.92); -fx-text-fill:white; -fx-background-radius:8; -fx-font-family:'DM Sans'; -fx-font-size:12px; -fx-padding:5 10 5 10; }
+.split-pane { -fx-background-color: transparent; -fx-border-width: 0; }
+.split-pane-divider { -fx-background-color: transparent; -fx-border-width: 0; -fx-padding: 0 2 0 2; }
+/* Remove default button focus ring */
+.button:focused { -fx-focus-color: transparent; -fx-faint-focus-color: transparent; }
